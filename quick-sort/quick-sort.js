@@ -37,4 +37,4 @@ function swap(i, j, array) {
   array[i] = temp;
 }
 
-console.log(quickSort([8, 4, 23, 42, 16, 15]));
+module.exports = quickSort;
